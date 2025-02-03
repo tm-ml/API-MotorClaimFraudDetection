@@ -3,7 +3,7 @@ import sys
 import pickle
 import pandas as pd
 
-# from app.validation.validation import InputSchema
+
 from app.model.custom_transformers import DropColumn, LogTransformer, IsZeroIndicator, Mapper, SelectColumn
 from app.model import custom_transformers
 from pathlib import Path

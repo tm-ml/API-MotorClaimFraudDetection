@@ -1,22 +1,7 @@
 '''Module with validation classes.'''
-# import json
 
-from pydantic import BaseModel, ValidationError
+from pydantic import BaseModel
 from typing import Optional
-
-
-# def validate_input(*, input_data: json):
-#     relevant_data = input_data.copy()
-#     errors = None
-#
-#     try:
-#         validated_data = InputSchema(**relevant_data[0])
-#         print("Validation succeed!")
-#         print(validated_data)
-#     except ValidationError as error:
-#         print("Validation bugs:")
-#         errors = error.json()
-#     return relevant_data, errors
 
 
 class InputSchema(BaseModel):
