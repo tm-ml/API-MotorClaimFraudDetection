@@ -86,21 +86,10 @@ POST             /predict             Predict fraudulence of a record
 
 Result: 1 indicates fraud, 0 indicates no fraud.
 
-📂 Project Structure
-
-fraud-detection-api/
-│-- app/
-│   ├── model/
-│   │   ├── model.py
-│   │   ├── custom_transformers.py
-│   ├── validation/
-│   │   ├── validation.py
-│-- main.py
-│-- requirements.txt
-│-- README.md
 
 🏗 Future Enhancements
-xxx
+- add information about froud probability in /predict response,
+- add the most importand details about model,
 
 📬 Contact
 
