@@ -6,11 +6,11 @@ This project is a FastAPI-based REST API for fraud detection. The API utilizes a
 
 ## Technologies:
 
-Python 3.9
-FastAPI
-Pandas
-Scikit-learn
-Pickle
+- Python 3.9
+ - FastAPI
+ - Pandas
+ - Scikit-learn
+ - Pickle
 
 ## API Documentation:
 
